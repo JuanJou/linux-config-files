@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+printf '%s %s\n' $(find $1 -maxdepth 5 -name '*.'$2 -type f -exec wc -l {} \; | grep -E '[1-9][0-9]{2,}')  
+
+
+
+
+

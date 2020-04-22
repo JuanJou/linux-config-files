@@ -1,0 +1,22 @@
+#!/bin/bash
+
+inotifywait -m ~/Downloads -e moved_to |
+    while read path action file; do
+						echo $file
+						if [[ "$file" =~ .*[aA]"puntes".*pdf$ ]]; then
+										mv "$path/$file" ~/Fisica/apuntes
+						fi
+
+						if [[ "$file" =~ .*"Serway".*pdf$  ]]; then
+										mv "$path/$file" ~/Fisica/serway
+						fi
+						if [[ "$file" =~ .*[gG]"uia".*pdf$  ]]; then
+										mv "$path/$file" ~/Fisica/guias
+						fi
+						if [[ "$file" =~ .*[sS][Ee][Mm][Aa][Nn][Aa].*pdf$  ]]; then
+										mv "$path/$file" ~/Fisica/programas
+						fi
+						if [[ "$file" =~ .*"Cheng".*pdf$  ]]; then
+										mv "$path/$file" ~/Fisica/cheng
+						fi
+	 done

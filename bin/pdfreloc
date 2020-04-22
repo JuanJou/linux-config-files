@@ -1,0 +1,9 @@
+#!/bin/bash
+
+inotifywait -m ~/Downloads -e moved_to |
+    while read path action file; do
+        if [[ "$file" =~ .*pdf$ ]]; then 
+								mv "$path/$file" ~/Fisica
+        fi
+    done
+
