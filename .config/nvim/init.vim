@@ -58,6 +58,9 @@ nnoremap  <leader>p :silent exec "!prettier --write **/%"<CR>:redr!<CR>
 nnoremap <c-j> 10j
 nnoremap <c-k> 10k
 
+nnoremap W w
+nnoremap w W
+
 nnoremap j gj
 nnoremap k  gk
 nnoremap <silent> <c-a> :wq<CR>
