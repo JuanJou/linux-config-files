@@ -4,19 +4,21 @@ inotifywait -m ~/Downloads -e moved_to |
     while read path action file; do
 						echo $file
 						if [[ "$file" =~ .*[aA]"puntes".*pdf$ ]]; then
-										mv "$path/$file" ~/Fisica/apuntes
-						fi
-
-						if [[ "$file" =~ .*"Serway".*pdf$  ]]; then
-										mv "$path/$file" ~/Fisica/serway
-						fi
-						if [[ "$file" =~ .*[gG]"uia".*pdf$  ]]; then
-										mv "$path/$file" ~/Fisica/guias
-						fi
-						if [[ "$file" =~ .*[sS][Ee][Mm][Aa][Nn][Aa].*pdf$  ]]; then
-										mv "$path/$file" ~/Fisica/programas
-						fi
-						if [[ "$file" =~ .*"Cheng".*pdf$  ]]; then
-										mv "$path/$file" ~/Fisica/cheng
+										touch ~/Fisica/apuntes/"$(date +%F)-$file"
+										mv "$path/$file" ~/Fisica/apuntes/"$(date +%F)-$file"
+						elif [[ "$file" =~ .*"Serway".*pdf$  ]]; then
+										touch ~/Fisica/serway/"$(date +%F)-$file"
+										mv "$path/$file" ~/Fisica/serway/"$(date +%F)-$file"
+						elif [[ "$file" =~ .*[gG]"uia".*pdf$  ]]; then
+										touch ~/Fisica/guias/"$(date +%F)-$file"
+										mv "$path/$file" ~/Fisica/guias/"$(date +%F)-$file"
+						elif [[ "$file" =~ .*[sS][Ee][Mm][Aa][Nn][Aa].*pdf$  ]]; then
+										touch ~/Fisica/programas/"$(date +%F)-$file"
+										mv "$path/$file" ~/Fisica/programas/"$(date +%F)-$file"
+						elif [[ "$file" =~ .*"Cheng".*pdf$  ]]; then
+										touch ~/Fisica/cheng/"$(date +%F)-$file"
+										mv "$path/$file" ~/Fisica/cheng/"$(date +%F)-$file"
+						else
+										mv "$path/$file" ~/Fisica/clases/"$(date +%F)-$file"
 						fi
 	 done
