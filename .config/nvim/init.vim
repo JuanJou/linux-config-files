@@ -25,6 +25,9 @@ Plug 'ternjs/tern_for_vim'
 Plug 'ycm-core/YouCompleteMe', {'do': './install.py --tern-completer'}
 "------------------- Android ----------------------------------
 Plug 'bpowell/vim-android'
+"------------------- Python -----------------------------------
+Plug 'vim-python/python-syntax'
+
 call plug#end()
 
 filetype plugin indent on
@@ -70,7 +73,9 @@ nnoremap <left> <nop>
 nnoremap <right> <nop>
 nmap <silent> <c-s> :w<CR>
 imap <silent> <c-s> <ESC>:w<CR>
+nmap <leader>x :q
 command!  Test :NERDTreeToggle
+command!  Status :Gtabedit :
 "-------------------- Toggle Insert/Normal Mode ----------------------------
 nnoremap ff i
 inoremap ff <ESC>
@@ -144,5 +149,9 @@ let g:javascript_plugin_ngdoc = 1
 let NERDTreeCustomOpenArgs = {'file':{'where':'t', 'reuse':'all'}}
 let NERDTreeMinimalUI = 1
 
+"---------------------- YouCompleteMe ------------------------------------
+let g:ycm_min_num_of_chars_for_completion = 4
+let g:ycm_min_num_identifier_candidate_chars = 4
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 set laststatus=2
