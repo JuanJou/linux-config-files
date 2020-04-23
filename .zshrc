@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
  alias install="sudo apt install"
  alias pdf="gio open"
  alias -s sh="vi"
+ alias fastrep="vlc --rate=1.5"
  alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
  export PATH=/home/juanjou/Android/Sdk/platform-tools:$PATH
  export PATH=/home/juanjou/bin:$PATH
