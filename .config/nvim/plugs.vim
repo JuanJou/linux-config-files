@@ -23,6 +23,4 @@ Plug 'ycm-core/YouCompleteMe', {'do': './install.py --tern-completer'}
 "------------------- Android ----------------------------------
 Plug 'bpowell/vim-android'
 "------------------- Python -----------------------------------
-Plug 'vim-python/python-syntax'
-
 call plug#end()
