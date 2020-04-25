@@ -3,7 +3,12 @@ import pafy
 import requests
 import datetime
 from env import api
+import os
 
+def wasdownloaded(total, recvd, ratio, rate, eta):
+    if (total == recvd):
+        os.system("notify-send 'Nuevo video de fisica descargado'")
+    return
 
 def plunk_videos(item):
     return item['contentDetails']
@@ -18,7 +23,7 @@ for video in videos:
     print(video_date < datetime.datetime.now())
     myvid = pafy.new('https://www.youtube.com/watch?v='+ video['videoId']);
     best = myvid.getbest();
-    best.download(filepath="/home/juanjou/Fisica/videos/",quiet=False);
+    best.download(filepath="/home/juanjou/Fisica/videos/",quiet=True,callback=wasdownloaded);
 
 exit()
 
