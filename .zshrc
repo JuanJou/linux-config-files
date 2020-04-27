@@ -1,4 +1,5 @@
-
+unsetopt correct_all
+bindkey -v
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 stty stop ""
@@ -9,6 +10,12 @@ export ZSH="/home/juanjou/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
+
+
+bindkey "^K" up-line-search
+bindkey "^J" down-line-search
+bindkey "^L" forward-word
+bindkey "^H" backward-kill-word
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,12 +75,12 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions) 
+plugins=(git zsh-autosuggestions colored-man-pages extract autojump)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
+autoload -U compinit && compinit
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -101,6 +108,7 @@ source $ZSH/oh-my-zsh.sh
  alias install="sudo apt install"
  alias pdf="gio open"
  alias -s sh="vi"
+ alias nvimconf="nvim ~/.config/nvim"
  alias fastrep="vlc --rate=1.5"
  alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
  export PATH=/home/juanjou/Android/Sdk/platform-tools:$PATH
