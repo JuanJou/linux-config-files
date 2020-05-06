@@ -28,3 +28,6 @@ let g:ycm_min_num_of_chars_for_completion = 4
 let g:ycm_min_num_identifier_candidate_chars = 4
 let g:ycm_autoclose_preview_window_after_completion = 1
 
+au BufReadPost,BufNewFile *.cs OmniSharpHighlightTypes
+
+source ~/.config/nvim/coc.vim 

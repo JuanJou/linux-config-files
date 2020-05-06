@@ -40,7 +40,6 @@ nnoremap <leader>zf $zf%
 
 "------------------------- HTML Mappings -----------------------------------
 
-autocmd FileType html inoremap >  ><ESC>hyi>f>a<CR><CR></<ESC>pa><ESC>ki
 autocmd FileType html nnoremap <leader>c f>i<space>class=""<ESC> h
 
 "------------------------- JS Mappings ------------------------------------
@@ -66,4 +65,10 @@ nnoremap <c-e> :NERDTreeToggle<CR>
 nnoremap <leader>ez  :vsp ~/.zshrc<CR>
 nnoremap <leader>rf  :so init.vim<CR>
 nnoremap <leader>h :nohlsearch<CR>
+"------------------------- C# / .NET -------------------------------
+autocmd FileType cs nnoremap <leader>gt :OmniSharpGotoDefinition<CR>
+autocmd FileType cs nnoremap <leader>p :OmniSharpCodeFormat<CR>
 
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr>    pumvisible() ? "\<C-y>" : "\<cr>"

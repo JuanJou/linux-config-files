@@ -1,9 +1,10 @@
 
 source ~/.config/nvim/plugs.vim
+source ~/.config/nvim/coc.vim
 
 filetype plugin indent on
 syntax on
-set softtabstop=2 " number of spaces when tab is pressed
+set softtabstop=4 " number of spaces when tab is pressed
 set shiftwidth=2
 set number
 set relativenumber
@@ -29,3 +30,5 @@ source ~/.config/nvim/plugs-config.vim
 set laststatus=2
 
 au FileType vim set foldmethod=manual
+
+

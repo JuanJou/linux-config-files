@@ -1,4 +1,3 @@
-
 call plug#begin('~/.nvim/bundle')
 "------------------- File Handling ----------------------------
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -14,13 +13,20 @@ Plug 'mbbill/undotree'
 Plug 'tpope/vim-fugitive'
 "-------------------- HTML ------------------------------------
 Plug 'Valloric/MatchTagAlways'
-
 "------------------- Javascript -------------------------------
 Plug 'pangloss/vim-javascript'
 Plug 'neoclide/vim-jsx-improve'
-Plug 'ternjs/tern_for_vim'
-Plug 'ycm-core/YouCompleteMe', {'do': './install.py --tern-completer'}
+" Plug 'ternjs/tern_for_vim'
+" Plug 'ycm-core/YouCompleteMe', {'do': './install.py --ts-completer'}
+" Plug 'prabirshrestha/asyncomplete.vim'
+"------------------- TypeScript -------------------------------
+Plug 'leafgarland/typescript-vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 "------------------- Android ----------------------------------
 Plug 'bpowell/vim-android'
-"------------------- Python -----------------------------------
+"------------------- Vue -----------------------------------
+Plug 'posva/vim-vue'
+"------------------- C# -----------------------------------
+Plug 'OmniSharp/omnisharp-vim'
 call plug#end()
