@@ -104,7 +104,7 @@ autoload -U compinit && compinit
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
- alias vim="stty stop '' -ixoff; vim"
+ alias vim="nvim"
  alias install="sudo apt install"
  alias pdf="gio open"
  alias -s sh="vi"
@@ -113,3 +113,4 @@ autoload -U compinit && compinit
  alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
  export PATH=/home/juanjou/Android/Sdk/platform-tools:$PATH
  export PATH=/home/juanjou/bin:$PATH
+alias startvpn="sudo openvpn --config ~/Development/neocomplexx/jjouglard.ovpn"

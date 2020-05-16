@@ -5,7 +5,7 @@ source ~/.config/nvim/coc.vim
 filetype plugin indent on
 syntax on
 set softtabstop=4 " number of spaces when tab is pressed
-set shiftwidth=2
+set shiftwidth=4
 set number
 set relativenumber
 set showcmd
@@ -18,6 +18,7 @@ set showmatch " highlight match of {([
 
 set incsearch " search while characters are entered
 set hlsearch " highlight matching words
+set termguicolors
 
 set foldmethod=syntax
 set foldlevelstart=99
@@ -31,4 +32,6 @@ set laststatus=2
 
 au FileType vim set foldmethod=manual
 
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
 

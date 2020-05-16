@@ -1,12 +1,11 @@
-
 let mapleader = ","
-" THIS IS A HOT FIX, A MORE ELEGANT APPROACH WILL BE BETTER
-nnoremap  <leader>p :silent exec "!prettier --write **/%"<CR>:redr!<CR>
+autocmd BufWritePre *.ts,*.js,*.html :call CocAction('runCommand','prettier.formatFile')
+autocmd BufWritePre st *.cs :OmniSharpCodeFormat
 nnoremap <c-j> 10j
 nnoremap <c-k> 10k
 nmap ; :
-nnoremap W w
-nnoremap w W
+
+nnoremap <c-i> <c-i>
 
 nnoremap j gj
 nnoremap k  gk
@@ -18,7 +17,6 @@ nnoremap <right> <nop>
 nmap <silent> <c-s> :w<CR>
 imap <silent> <c-s> <ESC>:w<CR>
 nmap <leader>x :q<CR>
-command!  Test :NERDTreeToggle
 command!  Status :Gtabedit :
 nmap <leader>u :UndotreeToggle<CR><C-W><C-W>
 nmap <c-f> /
@@ -53,8 +51,6 @@ autocmd FileType javascript inoremap <leader>im <ESC>yiw gg O import {  <ESC>P i
 autocmd FileType typescript inoremap <leader>im <ESC>yiw gg o import {  <ESC>P i } from '';<ESC>hi
 autocmd FileType javascript inoremap { {}<ESC>T{i<CR><CR><ESC>ki 
 autocmd FileType scss inoremap { {}<ESC>T{i<CR><CR><ESC>ki 
-autocmd FileType javascript nnoremap <leader>gt :YcmCompleter GoTo<CR>
-autocmd FileType typescript nnoremap <leader>gt :YcmCompleter GoTo<CR>
 
 "------------------------- React Native -----------------------------------
 autocmd FileType javascript inoremap <leader>v <View></View><ESC>FVT>i

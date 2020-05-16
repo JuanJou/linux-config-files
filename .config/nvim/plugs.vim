@@ -9,6 +9,7 @@ Plug 'crusoexia/vim-monokai'
 Plug 'vim-airline/vim-airline'
 Plug 'tomtom/tcomment_vim'
 Plug 'mbbill/undotree'
+Plug 'justinmk/vim-sneak'
 "------------------- GIT --------------------------------------
 Plug 'tpope/vim-fugitive'
 "-------------------- HTML ------------------------------------
@@ -16,15 +17,12 @@ Plug 'Valloric/MatchTagAlways'
 "------------------- Javascript -------------------------------
 Plug 'pangloss/vim-javascript'
 Plug 'neoclide/vim-jsx-improve'
-" Plug 'ternjs/tern_for_vim'
-" Plug 'ycm-core/YouCompleteMe', {'do': './install.py --ts-completer'}
-" Plug 'prabirshrestha/asyncomplete.vim'
 "------------------- TypeScript -------------------------------
 Plug 'leafgarland/typescript-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "------------------- Android ----------------------------------
-Plug 'bpowell/vim-android'
+Plug 'hsanson/vim-android'
 "------------------- Vue -----------------------------------
 Plug 'posva/vim-vue'
 "------------------- C# -----------------------------------

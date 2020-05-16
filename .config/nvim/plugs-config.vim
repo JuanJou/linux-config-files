@@ -23,11 +23,14 @@ let g:javascript_plugin_ngdoc = 1
 let NERDTreeCustomOpenArgs = {'file':{'where':'t', 'reuse':'all'}}
 let NERDTreeMinimalUI = 1
 
-"---------------------- YouCompleteMe ------------------------------------
-let g:ycm_min_num_of_chars_for_completion = 4
-let g:ycm_min_num_identifier_candidate_chars = 4
-let g:ycm_autoclose_preview_window_after_completion = 1
+" au BufReadPre,BufNewFile *.cs :OmniSharpHighlightTypes
+let g:OmniSharp_highlight_types = 2
 
-au BufReadPost,BufNewFile *.cs OmniSharpHighlightTypes
 
-source ~/.config/nvim/coc.vim 
+"----------------------- SNEAK ----------------------------------------
+let g:sneak#label = 1
+
+
+"----------------------- ANDROID ----------------------------------------
+let g:android_sdk_path = "~/Android/Sdk"
+
