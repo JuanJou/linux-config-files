@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'tomtom/tcomment_vim'
 Plug 'mbbill/undotree'
 Plug 'justinmk/vim-sneak'
+Plug 'honza/vim-snippets'
 "------------------- GIT --------------------------------------
 Plug 'tpope/vim-fugitive'
 "-------------------- HTML ------------------------------------

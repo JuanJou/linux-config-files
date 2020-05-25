@@ -113,4 +113,5 @@ autoload -U compinit && compinit
  alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
  export PATH=/home/juanjou/Android/Sdk/platform-tools:$PATH
  export PATH=/home/juanjou/bin:$PATH
-alias startvpn="sudo openvpn --config ~/Development/neocomplexx/jjouglard.ovpn"
+ alias startvpn="sudo openvpn --config ~/Development/neocomplexx/jjouglard.ovpn"
+ alias connectandroid="ssh juanjou@192.168.0.111 -p 2222"
