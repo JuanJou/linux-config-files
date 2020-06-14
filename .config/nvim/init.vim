@@ -6,6 +6,8 @@ filetype plugin indent on
 syntax on
 set softtabstop=4 " number of spaces when tab is pressed
 set shiftwidth=4
+set smartindent
+set autoindent
 set number
 set relativenumber
 set showcmd

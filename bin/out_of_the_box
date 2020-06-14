@@ -1,0 +1,10 @@
+#!/bin/sh
+install="sudo apt install"
+
+$install min
+$install neovim
+$install npm
+$install vlc
+$install tldr
+$install autojump
+$install git
