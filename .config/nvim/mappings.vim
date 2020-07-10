@@ -68,3 +68,8 @@ autocmd FileType cs nnoremap <leader>p :OmniSharpCodeFormat<CR>
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr>    pumvisible() ? "\<C-y>" : "\<cr>"
+
+"------------------------- Git -------------------------------
+nnoremap <leader>gt :diffget //2<CR>
+nnoremap <leader>gs :diffget //3<CR>
+nnoremap <leader>gw :Gwrite<CR>

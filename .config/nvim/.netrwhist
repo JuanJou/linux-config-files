@@ -1,6 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/juanjou/Development'
-let g:netrw_dirhist_2='/home/juanjou/Development/React Native'
-let g:netrw_dirhist_3='/home/juanjou/Development/React Native/TestUbuntu'
-let g:netrw_dirhist_4='/home/juanjou/Development/React Native/TestUbuntu/TestUbuntu'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/juanjou/Development/budafarma/HitSalud.Farmacia.Frontend/src/app/layout/comprobante/pie-comprobante/impresion-directa2g-modal'
