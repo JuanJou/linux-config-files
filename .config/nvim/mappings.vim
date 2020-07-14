@@ -51,9 +51,6 @@ autocmd FileType typescript inoremap <leader>im <ESC>yiw gg o import {  <ESC>P i
 autocmd FileType javascript inoremap { {}<ESC>T{i<CR><CR><ESC>ki 
 autocmd FileType scss inoremap { {}<ESC>T{i<CR><CR><ESC>ki 
 
-"------------------------- React Native -----------------------------------
-autocmd FileType javascript inoremap <leader>v <View></View><ESC>FVT>i
-autocmd FileType javascript inoremap <leader>t <Text></Text><ESC>FTT>i
 
 "------------------------- Commands Mappings -------------------------------
 nnoremap <c-e> :NERDTreeToggle<CR>
