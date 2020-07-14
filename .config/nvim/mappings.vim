@@ -31,7 +31,6 @@ nnoremap <c-h> <c-PAGEUP>
 "---------------------- Insert empty line Below ----------------------------
 nnoremap <leader>o o<ESC>
 inoremap <leader>o <ESC>o
-inoremap ; ;<CR>
 
 "---------------------- ALL FILES Mappings----------------------------------
 nnoremap <leader>zf $zf%
@@ -70,6 +69,6 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr>    pumvisible() ? "\<C-y>" : "\<cr>"
 
 "------------------------- Git -------------------------------
-nnoremap <leader>gt :diffget //2<CR>
-nnoremap <leader>gs :diffget //3<CR>
-nnoremap <leader>gw :Gwrite<CR>
+nnoremap <leader>t :diffget //2<CR>
+nnoremap <leader>s :diffget //3<CR>
+nnoremap <leader>w :Gwrite<CR>

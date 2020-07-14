@@ -22,11 +22,13 @@ Plug 'neoclide/vim-jsx-improve'
 "------------------- TypeScript -------------------------------
 Plug 'leafgarland/typescript-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+Plug 'peitalin/vim-jsx-typescript'
 "------------------- Android ----------------------------------
 Plug 'hsanson/vim-android'
 "------------------- Vue -----------------------------------
 Plug 'posva/vim-vue'
+"------------------- React Native -----------------------------------
+Plug 'maxmellon/vim-jsx-pretty'
 "------------------- C# -----------------------------------
 Plug 'OmniSharp/omnisharp-vim'
 call plug#end()
