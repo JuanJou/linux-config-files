@@ -8,3 +8,4 @@ $install vlc
 $install tldr
 $install autojump
 $install git
+$install node

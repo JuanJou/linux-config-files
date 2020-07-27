@@ -109,7 +109,7 @@ autoload -U compinit && compinit
  alias pdf="gio open"
  alias -s sh="vi"
  alias nvimconf="nvim ~/.config/nvim"
- alias fastrep="vlc --rate=1.5"
+ alias fastrep="vlc --rate=2"
  alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
  export PATH=/home/juanjou/Android/Sdk/platform-tools:$PATH
  export PATH=/home/juanjou/bin:$PATH

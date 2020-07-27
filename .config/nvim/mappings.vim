@@ -1,5 +1,5 @@
 let mapleader = ","
-autocmd BufWritePre *.ts,*.js,*.html :call CocAction('runCommand','prettier.formatFile')
+autocmd BufWritePre *.ts,*.js,*.html,*.tsx :call CocAction('runCommand','prettier.formatFile')
 autocmd BufWritePre st *.cs :OmniSharpCodeFormat
 nnoremap <c-j> 10j
 nnoremap <c-k> 10k
@@ -48,8 +48,9 @@ autocmd FileType javascript inoremap <leader>ie if () {<CR><CR>}else {<CR><CR>}<
 autocmd FileType javascript inoremap <leader>f for(i=0;i<;i++) {<CR><CR>}<ESC>?<<CR>a 
 autocmd FileType javascript inoremap <leader>im <ESC>yiw gg O import {  <ESC>P i } from '';<ESC>hi
 autocmd FileType typescript inoremap <leader>im <ESC>yiw gg o import {  <ESC>P i } from '';<ESC>hi
-autocmd FileType javascript inoremap { {}<ESC>T{i<CR><CR><ESC>ki 
 autocmd FileType scss inoremap { {}<ESC>T{i<CR><CR><ESC>ki 
+
+autocmd FileType javascript nnoremap <leader>rn :!node %<CR>
 
 
 "------------------------- Commands Mappings -------------------------------
@@ -57,6 +58,7 @@ nnoremap <c-e> :NERDTreeToggle<CR>
 nnoremap <leader>ez  :vsp ~/.zshrc<CR>
 nnoremap <leader>rf  :so init.vim<CR>
 nnoremap <leader>h :nohlsearch<CR>
+nnoremap <leader>qf :CocFix<CR>
 "------------------------- C# / .NET -------------------------------
 autocmd FileType cs nnoremap <leader>gt :OmniSharpGotoDefinition<CR>
 autocmd FileType cs nnoremap <leader>p :OmniSharpCodeFormat<CR>
