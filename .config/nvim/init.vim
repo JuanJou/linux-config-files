@@ -23,7 +23,7 @@ set termguicolors
 set foldmethod=syntax
 set foldlevelstart=99
 let javaScript_fold=1
-colorscheme monokai
+colorscheme nightfly
 
 source ~/.config/nvim/mappings.vim
 source ~/.config/nvim/plugs-config.vim

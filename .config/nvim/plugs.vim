@@ -11,6 +11,9 @@ Plug 'tomtom/tcomment_vim'
 Plug 'mbbill/undotree'
 Plug 'justinmk/vim-sneak'
 Plug 'honza/vim-snippets'
+Plug 'tpope/vim-dispatch'
+Plug 'akiyosi/gonvim-fuzzy'
+Plug 'bluz71/vim-nightfly-guicolors'
 
 "------------------- GIT --------------------------------------
 Plug 'tpope/vim-fugitive'
