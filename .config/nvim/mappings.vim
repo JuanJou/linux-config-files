@@ -51,6 +51,9 @@ autocmd FileType typescript inoremap <leader>im <ESC>yiw gg o import {  <ESC>P i
 autocmd FileType scss inoremap { {}<ESC>T{i<CR><CR><ESC>ki 
 
 autocmd FileType javascript nnoremap <leader>rn :!node %<CR>
+autocmd FileType javascript inoremap { {}<esc>i
+autocmd FileType javascript inoremap " ""<esc>i
+autocmd FileType javascript inoremap ' ''<esc>i
 
 
 "------------------------- Commands Mappings -------------------------------
