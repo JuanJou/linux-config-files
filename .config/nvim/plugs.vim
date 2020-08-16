@@ -14,9 +14,12 @@ Plug 'honza/vim-snippets'
 Plug 'tpope/vim-dispatch'
 Plug 'akiyosi/gonvim-fuzzy'
 Plug 'bluz71/vim-nightfly-guicolors'
+Plug 'kshenoy/vim-signature'
 
 "------------------- GIT --------------------------------------
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'mhinz/vim-signify'
 "-------------------- HTML ------------------------------------
 Plug 'Valloric/MatchTagAlways'
 "------------------- Javascript -------------------------------
@@ -34,4 +37,5 @@ Plug 'posva/vim-vue'
 Plug 'maxmellon/vim-jsx-pretty'
 "------------------- C# -----------------------------------
 Plug 'OmniSharp/omnisharp-vim'
+
 call plug#end()

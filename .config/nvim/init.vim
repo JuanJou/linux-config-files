@@ -32,6 +32,7 @@ set laststatus=2
 
 au FileType vim set foldmethod=manual
 
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
-set list
+" set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+" set list
 
+hi visual  guifg=black guibg=yellow gui=none

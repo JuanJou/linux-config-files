@@ -33,4 +33,15 @@ let g:sneak#label = 1
 
 "----------------------- ANDROID ----------------------------------------
 let g:android_sdk_path = "~/Android/Sdk"
+"----------------------- SIGNIFY ----------------------------------------
+" Change these if you want
+let g:signify_sign_add               = '+'
+let g:signify_sign_delete            = '-'
+let g:signify_sign_delete_first_line = '‾'
+let g:signify_sign_change            = '~'
+
+" I find the numbers disctracting
+let g:signify_sign_show_count = 0
+let g:signify_sign_show_text = 1
+let g:signify_disable_by_default = 1
 
