@@ -54,6 +54,8 @@ autocmd FileType javascript nnoremap <leader>rn :!node %<CR>
 autocmd FileType javascript inoremap { {}<esc>i
 autocmd FileType javascript inoremap " ""<esc>i
 autocmd FileType javascript inoremap ' ''<esc>i
+autocmd FileType javascript inoremap ( ()<esc>i
+autocmd FileType javascript inoremap [ []<esc>i
 
 
 "------------------------- Commands Mappings -------------------------------
