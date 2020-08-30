@@ -56,6 +56,8 @@ autocmd FileType javascript inoremap " ""<esc>i
 autocmd FileType javascript inoremap ' ''<esc>i
 autocmd FileType javascript inoremap ( ()<esc>i
 autocmd FileType javascript inoremap [ []<esc>i
+autocmd FileType javascript nnoremap <leader>cl yiwoconsole.log('<ESC>pa',<ESC>pa); 
+
 
 
 "------------------------- Commands Mappings -------------------------------
