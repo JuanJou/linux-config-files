@@ -59,6 +59,33 @@ ENABLE_CORRECTION="true"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+### ARCHIVE EXTRACTION
+# usage: ex <file>
+extract ()
+{
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1   ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *.deb)       ar x $1      ;;
+      *.tar.xz)    tar xf $1    ;;
+      *.tar.zst)   unzstd $1    ;;      
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
+
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # You can set one of the optional three formats:
@@ -115,3 +142,11 @@ autoload -U compinit && compinit
  export PATH=/home/juanjou/bin:$PATH
  alias startvpn="sudo openvpn --config ~/Development/neocomplexx/jjouglard.ovpn"
  alias connectandroid="ssh juanjou@192.168.0.111 -p 2222"
+
+
+ # Git bindings
+ alias commitall="git add . && git commit -m "
+ alias lol="git log --oneline"
+
+ # Configuration
+ alias editzsh="vim ~/.zshrc"
