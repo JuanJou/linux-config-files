@@ -143,6 +143,8 @@ autoload -U compinit && compinit
  alias startvpn="sudo openvpn --config ~/Development/neocomplexx/jjouglard.ovpn"
  alias connectandroid="ssh juanjou@192.168.0.111 -p 2222"
 
+ #alias pullallsd = "find . -type d -mindepth 2 -maxdepth 3 -exec echo git --git-dir={}/.git --work-tree=$PWD/{} status \; "
+
 
  # Git bindings
  alias commitall="git add . && git commit -m "

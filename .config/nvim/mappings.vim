@@ -20,6 +20,8 @@ nmap <leader>x :q<CR>
 command!  Status :Gtabedit :
 nmap <leader>u :UndotreeToggle<CR><C-W><C-W>
 nmap <c-f> /
+
+
 "-------------------- Toggle Insert/Normal Mode ----------------------------
 nnoremap ff i
 inoremap ff <ESC>
