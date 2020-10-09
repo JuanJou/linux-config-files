@@ -1,6 +1,8 @@
 let mapleader = ","
 autocmd BufWritePre *.ts,*.js,*.html,*.tsx :call CocAction('runCommand','prettier.formatFile')
 autocmd BufWritePre st *.cs :OmniSharpCodeFormat
+autocmd BufWritePre *.ts,*.js,*.html,*.tsx :call CocAction('runCommand','prettier.formatFile')
+autocmd BufWritePre *.cpp :ClangFormat
 nnoremap <c-j> 10j
 nnoremap <c-k> 10k
 nmap ; :
@@ -18,6 +20,7 @@ nmap <silent> <c-s> :w<CR>
 imap <silent> <c-s> <ESC>:w<CR>
 nmap <leader>x :q<CR>
 command!  Status :Gtabedit :
+command!  S :Start 
 nmap <leader>u :UndotreeToggle<CR><C-W><C-W>
 nmap <c-f> /
 

@@ -37,5 +37,6 @@ Plug 'posva/vim-vue'
 Plug 'maxmellon/vim-jsx-pretty'
 "------------------- C# -----------------------------------
 Plug 'OmniSharp/omnisharp-vim'
+Plug 'rhysd/vim-clang-format'
 
 call plug#end()

@@ -1,7 +1,5 @@
 unsetopt correct_all
 bindkey -v
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 stty stop ""
 # Path to your oh-my-zsh installation.
 export ZSH="/home/juanjou/.oh-my-zsh"
@@ -142,6 +140,7 @@ autoload -U compinit && compinit
  export PATH=/home/juanjou/bin:$PATH
  alias startvpn="sudo openvpn --config ~/Development/neocomplexx/jjouglard.ovpn"
  alias connectandroid="ssh juanjou@192.168.0.111 -p 2222"
+ alias removelocalbranches = "git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches"
 
  #alias pullallsd = "find . -type d -mindepth 2 -maxdepth 3 -exec echo git --git-dir={}/.git --work-tree=$PWD/{} status \; "
 
