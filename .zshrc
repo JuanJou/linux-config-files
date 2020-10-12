@@ -140,7 +140,7 @@ autoload -U compinit && compinit
  export PATH=/home/juanjou/bin:$PATH
  alias startvpn="sudo openvpn --config ~/Development/neocomplexx/jjouglard.ovpn"
  alias connectandroid="ssh juanjou@192.168.0.111 -p 2222"
- alias removelocalbranches = "git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches"
+ alias removelocalbranches="git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches"
 
  #alias pullallsd = "find . -type d -mindepth 2 -maxdepth 3 -exec echo git --git-dir={}/.git --work-tree=$PWD/{} status \; "
 
@@ -148,6 +148,10 @@ autoload -U compinit && compinit
  # Git bindings
  alias commitall="git add . && git commit -m "
  alias lol="git log --oneline"
+
+ alias -s js=vim
+ alias -s ts=vim
+ alias listalias="grep alias ~/.zshrc"
 
  # Configuration
  alias editzsh="vim ~/.zshrc"
