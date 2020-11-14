@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "coc-angular": ">=0.1000.2",
+    "coc-clangd": ">=0.4.14",
+    "coc-css": ">=1.2.4",
+    "coc-eslint": ">=1.2.6",
+    "coc-html": ">=1.2.4",
+    "coc-java": ">=1.4.11",
+    "coc-json": ">=1.2.6",
+    "coc-prettier": ">=1.1.15",
+    "coc-python": ">=1.2.12",
+    "coc-snippets": ">=2.1.28",
+    "coc-tslint": ">=1.0.17",
+    "coc-tsserver": ">=1.5.2",
+    "coc-vimlsp": ">=0.9.1"
+  }
+}

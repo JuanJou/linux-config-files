@@ -1,0 +1,14 @@
+prettier.formatFile
+tsserver.organizeImports
+clangd.install
+clangd.symbolInfo
+clangd.update
+clangd.switchSourceHeader
+tsserver.executeAutofix
+editor.action.organizeImport
+eslint.executeAutofix
+tsserver.restart
+tslint.fixAllProblems
+tsserver.reloadProjects
+java.projectConfiguration.update
+java.updateLanguageServer

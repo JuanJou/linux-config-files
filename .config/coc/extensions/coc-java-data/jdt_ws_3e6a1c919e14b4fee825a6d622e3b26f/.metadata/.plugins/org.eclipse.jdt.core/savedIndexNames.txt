@@ -1,0 +1,24 @@
+INDEX VERSION 1.131+/home/juanjou/.config/coc/extensions/coc-java-data/jdt_ws_3e6a1c919e14b4fee825a6d622e3b26f/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+4013607337.index
+4282993803.index
+2469236708.index
+2756948650.index
+2991887147.index
+1824716599.index
+2975677555.index
+2949837364.index
+3282679440.index
+1754650493.index
+2203126228.index
+442008100.index
+2851748750.index
+720074039.index
+3934363160.index
+1207151263.index
+1024771520.index
+482423672.index
+1699256687.index
+3119380242.index
+145794665.index
+1513007859.index

@@ -1,0 +1,12 @@
+{
+  "lastUpdate": 1594350699028,
+  "extension": {
+    "coc-eslint": {
+      "disabled": true
+    },
+    "coc-angular": {},
+    "coc-prettier": {
+      "disabled": false
+    }
+  }
+}

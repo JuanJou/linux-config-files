@@ -1,0 +1,35 @@
+{
+  "extensions": {
+    "%2Fhome%2Fjuanjou%2FDevelopment%2Fneocomplexx%2Ffrontend": [
+      "ZZ"
+    ],
+    "%2Fhome%2Fjuanjou%2FDevelopment%2Fbudafarma%2FHitSalud": {
+      "Farmacia": {
+        "Frontend": [
+          "jkj",
+          ">>",
+          "k"
+        ]
+      }
+    },
+    "%2Fhome%2Fjuanjou%2FDevelopment%2FReact%20Native%2Fappssh%2FProyectoFinalMassettiJouglard": [
+      "k"
+    ]
+  },
+  "commands": {
+    "%2Fhome%2Fjuanjou%2FDevelopment%2Ftypescript-design-patterns": [
+      " c"
+    ],
+    "%2Fhome%2Fjuanjou%2FDevelopment%2Fcpp%2Fcalculator": [
+      "clan"
+    ]
+  },
+  "diagnostics": {
+    "%2Fhome%2Fjuanjou%2FDevelopment%2FReact%2Fmy-app": [
+      " "
+    ],
+    "%2Fhome%2Fjuanjou%2FDevelopment%2FReact%20Native%2FfullApp%2FProyectoFinalMassettiJouglard": [
+      "d"
+    ]
+  }
+}

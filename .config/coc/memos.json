@@ -1,0 +1,979 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "b993a0726c949231483fa0bbe282a106f0bfc3293a3d35dfa77ce898e5d4b44a4c9c7527fb4707b92f1a522dbfbe5511fe5d23c96cc63206faccc0b16b77017e"
+      },
+      "expiry": 1603599364796
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98"
+      },
+      "expiry": 1603599364796
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98"
+      },
+      "expiry": 1603599364797
+    },
+    "/usr/bin/python3.6.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "88ce7eecefb3b28422ec29ca6d2f39cc5a095f686c5831ad23d5145ff76495ac09d22f92d6601fe13d28021a755166a1bc3af5c16a5ce3d023e5e47be9186a15"
+      },
+      "expiry": 1603599364880
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15"
+      },
+      "expiry": 1603599364880
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "88ce7eecefb3b28422ec29ca6d2f39cc5a095f686c5831ad23d5145ff76495ac09d22f92d6601fe13d28021a755166a1bc3af5c16a5ce3d023e5e47be9186a15",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "type": "Unknown"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "b993a0726c949231483fa0bbe282a106f0bfc3293a3d35dfa77ce898e5d4b44a4c9c7527fb4707b92f1a522dbfbe5511fe5d23c96cc63206faccc0b16b77017e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "88ce7eecefb3b28422ec29ca6d2f39cc5a095f686c5831ad23d5145ff76495ac09d22f92d6601fe13d28021a755166a1bc3af5c16a5ce3d023e5e47be9186a15",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.17-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 17,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.17-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "b993a0726c949231483fa0bbe282a106f0bfc3293a3d35dfa77ce898e5d4b44a4c9c7527fb4707b92f1a522dbfbe5511fe5d23c96cc63206faccc0b16b77017e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "88ce7eecefb3b28422ec29ca6d2f39cc5a095f686c5831ad23d5145ff76495ac09d22f92d6601fe13d28021a755166a1bc3af5c16a5ce3d023e5e47be9186a15",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.9-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.9-final"
+      },
+      "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+      "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.9-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.9-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+      "type": "Unknown"
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.17 64-bit",
+        "hash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98-659109f1ec62938108251ecc766e5056"
+      },
+      "expiry": 1603599364899
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.6.9 64-bit",
+        "hash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15-5323ff172a449758973c30bbd9722d59"
+      },
+      "expiry": 1603599364900
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.9-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.9-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+      "type": "Unknown",
+      "displayName": "Python 3.6.9 64-bit"
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.17-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 17,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.17-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "7021a1dc91f53c370ce1213a7a333813a2210f896e3f60f10b831181ad2ea8fd173efd1e376acbd16cbab6c7eda78ec0d3ad44df03ae3dfa1b6f294238ca8d98",
+          "type": "Unknown",
+          "displayName": "Python 2.7.17 64-bit"
+        }
+      },
+      "expiry": 1603599364916
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.6.9-final",
+            "major": 3,
+            "minor": 6,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.6.9-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+          "type": "Unknown",
+          "displayName": "Python 3.6.9 64-bit"
+        }
+      },
+      "expiry": 1603599364917
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.9-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.9-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.6.9 64-bit"
+    },
+    "ProposeLSBanner": false,
+    "/home/juanjou/Development/tensorflow/venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f"
+      },
+      "expiry": 1603599364874
+    },
+    "/home/juanjou/Development/tensorflow/venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f"
+      },
+      "expiry": 1603599364875
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.9-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.9-final"
+      },
+      "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+      "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+      "type": "VirtualEnv"
+    },
+    "/home/juanjou/Development/tensorflow/venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f"
+      },
+      "expiry": 1603599364884
+    },
+    "/home/juanjou/Development/tensorflow/venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.6.9 64-bit ('venv': venv)",
+        "hash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f-fec6095cb14c758662d8c9a0289d08a9"
+      },
+      "expiry": 1603599364892
+    },
+    "/home/juanjou/Development/tensorflow/venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "info": {
+          "architecture": 3,
+          "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.6.9-final",
+            "major": 3,
+            "minor": 6,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.6.9-final"
+          },
+          "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+          "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+          "envName": "venv",
+          "type": "Venv",
+          "displayName": "Python 3.6.9 64-bit ('venv': venv)"
+        }
+      },
+      "expiry": 1603599364907
+    },
+    "/home/juanjou/Development/tensorflow/venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.6.9 64-bit ('venv': venv)",
+        "hash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f-7b6cac262de5be42e7542dad012bed50"
+      },
+      "expiry": 1603599364922
+    }
+  },
+  "coc-python|/home/juanjou/Development/teladocpy": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:ad6a90f8c5f4eee0cb40bc2f1eb5e6fe": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ad6a90f8c5f4eee0cb40bc2f1eb5e6fe": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/juanjou/Development/teladocpy": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.9-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.9-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "4c3ae342e363682a786ff605ecb699262d7cf9f61033afe061e22da2c9bdb49a97df3bb57a33ab16ff7d7d19ef1707e2a6abee1d8d2250af2fa8d5a0221e0f15",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/juanjou/Development/tensorflow": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:aff6e6c9b2e5df329bb359e1de95653e": [],
+    "SelectedPythonPath": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:aff6e6c9b2e5df329bb359e1de95653e": [
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/home/juanjou/Development/tensorflow": {
+      "architecture": 3,
+      "path": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.9-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.9-final"
+      },
+      "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+      "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/juanjou/Development/tensorflow/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/home/juanjou/Development/tensorflow/venv",
+        "fileHash": "1e1da49a46a48606e35443333ffd6c6168049c1645d1ae027ba1539342718eb2f7d8f63dfcccebbe3152ecaab2554ceca34cd07725ad7c04ea66656f3b59369f",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ]
+  }
+}

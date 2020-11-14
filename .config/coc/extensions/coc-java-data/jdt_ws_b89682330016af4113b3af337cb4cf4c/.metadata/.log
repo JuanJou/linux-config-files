@@ -1,0 +1,1017 @@
+!SESSION 2020-05-08 16:59:30.464 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/juanjou/.config/coc/extensions/coc-java-data/jdt_ws_b89682330016af4113b3af337cb4cf4c
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.552
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.771
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.818
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.819
+!MESSAGE Initializing Java Language Server 0.55.0.202004300028
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.854
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.854
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.getSettings, java.project.refreshDiagnostics, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.isTestFile, java.project.getClasspaths, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.project.getSemanticTokensLegend]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.870
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:33.926
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:34.149
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 16:59:35.873
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:09.535
+!MESSAGE Workspace initialized in 35675ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:09.705
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:09.713
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:09.740
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, project={referencedLibraries=[lib/**/*.jar]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:09.744
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:10.224
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.062
+!MESSAGE Reconciled 0. Took 490 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.314
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.315
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.395
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.396
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.397
+!MESSAGE Validated 2. Took 323 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.416
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.421
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.422
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:11.425
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:13.225
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:13.779
+!MESSAGE Reconciled 0. Took 89 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:14.328
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:14.328
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:14.359
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:14.359
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:14.416
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:14.417
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:00:14.418
+!MESSAGE Validated 3. Took 187 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:08.969
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:09.412
+!MESSAGE Reconciled 0. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:09.546
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:09.614
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:09.951
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.023
+!MESSAGE Reconciled 0. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.092
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.124
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.296
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.300
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.316
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.473
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.478
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.481
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.607
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.611
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.613
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:10.740
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.089
+!MESSAGE Reconciled 0. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.584
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.584
+!MESSAGE 2 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.605
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.605
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.630
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.630
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:11.631
+!MESSAGE Validated 3. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:12.887
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:12.949
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.049
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.348
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.860
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.860
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.884
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.884
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.909
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.909
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:13.910
+!MESSAGE Validated 3. Took 111 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:15.269
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:15.736
+!MESSAGE Reconciled 0. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:16.091
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:16.508
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:16.740
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:17.049
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:17.442
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:17.912
+!MESSAGE Reconciled 0. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:18.441
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:18.505
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:18.672
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:18.754
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:18.784
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:18.900
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:19.216
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:19.222
+!MESSAGE Reconciled 0. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:19.247
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:19.280
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:19.688
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.218
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.218
+!MESSAGE 2 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.243
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.244
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.271
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.272
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.272
+!MESSAGE Validated 3. Took 134 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.849
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.914
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:20.945
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.318
+!MESSAGE Reconciled 0. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.774
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.775
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.798
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.799
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.825
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.826
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:21.826
+!MESSAGE Validated 3. Took 107 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:24.365
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:24.427
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:24.463
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:24.784
+!MESSAGE Reconciled 0. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:25.288
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:25.288
+!MESSAGE 2 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:25.306
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:25.307
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:25.328
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:25.328
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:25.329
+!MESSAGE Validated 3. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:28.320
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:28.756
+!MESSAGE Reconciled 0. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:28.863
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.279
+!MESSAGE Reconciled 0. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.787
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.788
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.809
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.809
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.832
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.832
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:29.832
+!MESSAGE Validated 3. Took 103 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:31.152
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:01:31.157
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-08 17:01:31.159
+!MESSAGE Error while handling document save. URI: file:///home/juanjou/Development/React%20Native/TestUbuntu/TestUbuntu/android/app/src/main/java/com/intaapp/utilities/StorageSave.java
+!STACK 1
+Java Model Exception: Java Model Status [src/main/java/com/intaapp/utilities [in app] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:351)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:976)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$7.run(BaseDocumentLifeCycleHandler.java:280)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:277)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:744)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-05-08 17:01:31.160
+!MESSAGE src/main/java/com/intaapp/utilities [in app] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:56.475
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:56.932
+!MESSAGE Reconciled 0. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.454
+!MESSAGE begin problem for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.455
+!MESSAGE 1 problems reported for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.470
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.470
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.496
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.496
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.528
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.528
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:09:57.529
+!MESSAGE Validated 4. Took 147 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:00.116
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:00.342
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:00.363
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:00.653
+!MESSAGE Reconciled 0. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-08 17:14:00.676
+!MESSAGE Error while handling document save. URI: file:///home/juanjou/Development/React%20Native/TestUbuntu/TestUbuntu/android/app/src/main/java/com/intaapp/nativecomponents/image/CustomImagePackage.java
+!STACK 1
+Java Model Exception: Java Model Status [src/main/java/com/intaapp/nativecomponents/image [in app] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:351)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:976)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$7.run(BaseDocumentLifeCycleHandler.java:280)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:277)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:744)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-05-08 17:14:00.678
+!MESSAGE src/main/java/com/intaapp/nativecomponents/image [in app] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:01.622
+!MESSAGE begin problem for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:01.623
+!MESSAGE 1 problems reported for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:01.723
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:01.725
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:01.909
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:01.910
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:02.151
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:02.153
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:14:02.155
+!MESSAGE Validated 4. Took 1090 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:11.211
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:11.733
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:11.739
+!MESSAGE Reconciled 0. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:11.783
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-08 17:15:11.787
+!MESSAGE Error while handling document save. URI: file:///home/juanjou/Development/React%20Native/TestUbuntu/TestUbuntu/android/app/src/main/java/com/intaapp/nativecomponents/image/CustomImagePackage.java
+!STACK 1
+Java Model Exception: Java Model Status [src/main/java/com/intaapp/nativecomponents/image [in app] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:351)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:976)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$7.run(BaseDocumentLifeCycleHandler.java:280)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:277)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:744)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-05-08 17:15:11.788
+!MESSAGE src/main/java/com/intaapp/nativecomponents/image [in app] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:12.669
+!MESSAGE begin problem for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:12.670
+!MESSAGE 1 problems reported for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:12.788
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:12.789
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:13.004
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:13.016
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:13.185
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:13.186
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:15:13.188
+!MESSAGE Validated 4. Took 996 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:28.452
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:28.949
+!MESSAGE Reconciled 0. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.507
+!MESSAGE begin problem for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.507
+!MESSAGE 1 problems reported for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.529
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.530
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.563
+!MESSAGE begin problem for /ReactImageManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.563
+!MESSAGE 1 problems reported for /ReactImageManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.585
+!MESSAGE begin problem for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.585
+!MESSAGE 1 problems reported for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.668
+!MESSAGE begin problem for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.668
+!MESSAGE 1 problems reported for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:16:29.669
+!MESSAGE Validated 5. Took 269 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:45.959
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:45.961
+!MESSAGE Clearing problems for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:45.971
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:45.972
+!MESSAGE Clearing problems for /ImagesUtilities.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:45.983
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:45.984
+!MESSAGE Clearing problems for /CustomImageView.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:46.019
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:46.022
+!MESSAGE Clearing problems for /CustomImagePackage.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:46.030
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-08 17:22:46.031
+!MESSAGE Clearing problems for /ReactImageManager.java
+!SESSION 2020-05-27 19:04:32.221 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/juanjou/.config/coc/extensions/coc-java-data/jdt_ws_b89682330016af4113b3af337cb4cf4c
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-05-27 19:04:33.620
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2020-05-27 19:04:33.901
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-05-27 19:04:33.901
+!MESSAGE Could not read metadata for 'react-native-camera'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/react-native-camera)[567]: java.lang.Exception: The project description file (.project) for 'react-native-camera' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:439)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.start(JavaLanguageServerPlugin.java:151)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1780)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2020-05-27 19:04:33.904
+!MESSAGE The project description file (.project) for 'react-native-camera' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'react-native-camera' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:439)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.start(JavaLanguageServerPlugin.java:151)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1780)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-05-27 19:04:33.904
+!MESSAGE Could not read metadata for 'react-native-color-matrix-image-filters'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/react-native-color-matrix-image-filters)[567]: java.lang.Exception: The project description file (.project) for 'react-native-color-matrix-image-filters' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:439)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.start(JavaLanguageServerPlugin.java:151)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1780)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2020-05-27 19:04:33.905
+!MESSAGE The project description file (.project) for 'react-native-color-matrix-image-filters' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'react-native-color-matrix-image-filters' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:439)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.start(JavaLanguageServerPlugin.java:151)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1780)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:36.858
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:37.398
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:37.492
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:37.493
+!MESSAGE Initializing Java Language Server 0.56.0.202005091512
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:37.544
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:37.544
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.getSettings, java.project.refreshDiagnostics, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.isTestFile, java.project.getClasspaths, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.project.getSemanticTokensLegend]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:37.571
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:04:39.056
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:25.086
+!MESSAGE Workspace initialized in 46889ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:25.190
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:25.234
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:25.285
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, project={referencedLibraries=[lib/**/*.jar]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:25.289
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:54.268
+!MESSAGE Reconciled 0. Took 494 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:55.302
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:55.306
+!MESSAGE Duplicate local variable uri is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:55.306
+!MESSAGE 5 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:55.319
+!MESSAGE Validated 1. Took 643 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:56.301
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:56.307
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:56.311
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:05:56.314
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:16.968
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:17.473
+!MESSAGE Reconciled 0. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:18.024
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:18.024
+!MESSAGE 2 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:18.025
+!MESSAGE Validated 1. Took 102 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:18.644
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:18.854
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:18.864
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:19.131
+!MESSAGE Reconciled 0. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-05-27 19:06:19.167
+!MESSAGE Error while handling document save. URI: file:///home/juanjou/Development/React%20Native/TestUbuntu/TestUbuntu/android/app/src/main/java/com/intaapp/utilities/StorageSave.java
+!STACK 1
+Java Model Exception: Java Model Status [src/main/java/com/intaapp/utilities [in app] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:351)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:976)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:433)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$7.run(BaseDocumentLifeCycleHandler.java:281)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:278)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:744)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-05-27 19:06:19.168
+!MESSAGE src/main/java/com/intaapp/utilities [in app] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:19.643
+!MESSAGE begin problem for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:19.643
+!MESSAGE 1 problems reported for /StorageSave.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:19.644
+!MESSAGE Validated 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:55.215
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-05-27 19:06:55.218
+!MESSAGE Clearing problems for /StorageSave.java
